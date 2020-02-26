@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  background-color: #ECEEF1;
+}
+
+.topRightBar {
+  display: flex;
+  position: absolute;
+  right: 3%;
+  top: 1.5%;
+  height: 5.5%;
+}
+
+.forgetId {
+  text-decoration: none;
+}
+
+.haveId {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5;
+  align-items: center;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #505050;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.btnSignIn {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 34px;
+  width: 100%;
+  padding: 0 20px;
+  color: white;
+}
+
+.haveAccount {
+  padding-top: 0;
+  margin-top: 4.25px;
+}
+
+.fas{
+  padding-right: 5px;
+}
