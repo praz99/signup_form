@@ -43,6 +43,79 @@ body {
   margin-top: 4.25px;
 }
 
-.fas{
+.fas {
   padding-right: 5px;
+}
+
+.mainBody {
+  /* background-color: aquamarine; */
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  height: 800px;
+}
+
+.mainLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: center;
+  justify-content: center; */
+  width: 25%;
+  height: 100%;
+  color: #ECEEF1;
+}
+
+.logoNextline {
+  display: flex;
+  position: absolute;
+  /* flex-direction: row; */
+  width: 80%;
+  top: 50px;
+  left: 10px;
+}
+
+.mint {
+  position: absolute;
+  left: 10%;
+  height: 30px;
+  width: 30px;
+}
+
+.mintText {
+  position: absolute;
+  left: 20%;
+  height: 25px;
+  width: 40px;
+}
+
+.quickBooks {
+  position: absolute;
+  left: 34%;
+  height: 30px;
+  width: 30px;
+}
+
+.quickBooksText {
+  position: absolute;
+  left: 45%;
+  height: 25px;
+  width: 85px;
+}
+
+.turbotax {
+  position: absolute;
+  left: 74%;
+  height: 30px;
+  width: 30px;
+}
+
+.turbotaxText {
+  position: absolute;
+  left: 84%;
+  height: 25px;
+  width: 80px;
 }
