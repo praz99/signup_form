@@ -48,7 +48,7 @@ body {
 }
 
 .mainBody {
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
   position: absolute;
   left: 35%;
   top: 10%;
@@ -118,4 +118,53 @@ body {
   left: 84%;
   height: 25px;
   width: 80px;
+}
+  
+fieldset{  
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: white;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  padding: 5px;
+  margin: 0;
+  overflow: hidden;
+
+}
+
+.createAcc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.firstLine {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.secondLine, .learnMore {
+  font-weight: 400;
+  line-height: 2px;
+  font-size: 14px;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.learnMore {
+  text-decoration: none;
+  font-size: 13px;
+}
+.userInputs {
+  padding: 20px 20px 0 20px;
+  display:flex;
+  flex-direction: column;
+}
+
+.userInputs label {
+  display: block;
 }
