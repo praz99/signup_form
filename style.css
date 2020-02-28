@@ -38,6 +38,16 @@ body {
   color: white;
 }
 
+.btncreateAcc{
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 45px;
+  width: 100%;
+  padding: 0 20px;
+  color: white;
+  font-size: 16px;
+}
 .haveAccount {
   padding-top: 0;
   margin-top: 4.25px;
@@ -56,6 +66,7 @@ body {
   width: 400px;
   flex-direction: column;
   height: 800px;
+  
 }
 
 .mainLogo {
@@ -132,6 +143,7 @@ fieldset{
   padding: 5px;
   margin: 0;
   overflow: hidden;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
 
@@ -146,13 +158,13 @@ fieldset{
   line-height: 1.1;
   font-size: 24px;
   margin-bottom: 10px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /* font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; */
 }
 .secondLine, .learnMore {
   font-weight: 400;
   line-height: 2px;
   font-size: 14px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /* font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif; */
 
 }
 .learnMore {
@@ -165,6 +177,153 @@ fieldset{
   flex-direction: column;
 }
 
-.userInputs label {
-  display: block;
+/* .tooltip .tooltipText::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  /* display: inline-block; 
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+} */
+
+/* .tooltip
+{
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    top: 0px;
+    left: 4px;
+    visibility: hidden;
+}
+.tooltip:focus-within
+{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    top: -5px;
+    color: #fff;
+    content: attr(alt);
+    left: 160px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 150px;
+    visibility: visible;
+}
+.tooltip:focus-within
+{
+    border: solid;
+    border-color: transparent black;
+    border-width: 6px 6px 6px 0;
+    bottom: 20px;
+    content: "";
+    left: 155px;
+    position: absolute;
+    z-index: 99;
+    top: 3px;
+    visibility: visible;
+} */
+
+
+/* This section is tooltip*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  /* overflow: visible; */
+  
+}
+
+/* .tooltiptext {
+  overflow-block: visible;
+} */
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.tooltip:focus-within .tooltiptext {
+  visibility: visible;
+}
+/*tooltip section ends here*/
+
+.userInputs input {
+  /* display: block; */
+  height: 30px;
+  width: 340px;
+  /* width:100%; */
+
+  /* border: 2px black !important; */
+  box-shadow: none !important;
+  /* outline: none; */
+  
+}
+
+.formFooter{
+  text-align: center;
+  font-size: small;
+}
+
+.ffhyperlink{
+  text-decoration: none;
+}
+
+.emailBox {
+  margin-bottom: 20px;
+}
+
+.phoneBox{
+  margin-bottom: 20px;
+}
+
+.passwordBox {
+  margin-bottom: 25px;
+}
+
+.bottomFF{
+  background-color: #ECEEF1;
+  font-size: 10px;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 700px;
+  left: 0px;
+  
+}
+
+.bottomFFformat{  
+  text-align: center;
 }
