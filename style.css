@@ -43,8 +43,8 @@ body {
   border-radius: 4px;
   border: 1px solid #4c4c4c;
   height: 45px;
-  width: 100%;
-  padding: 0 20px;
+  width: 95%;
+  padding: 0 10px;
   color: white;
   font-size: 16px;
 }
@@ -54,19 +54,18 @@ body {
 }
 
 .fas {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .mainBody {
   /* background-color: aquamarine; */
   position: absolute;
   left: 40%;
-  top: 10%;
+  top: 7%;
   display: flex;
   width: 400px;
   flex-direction: column;
-  height: 800px;
-  
+  height: 75%;
 }
 
 .mainLogo {
@@ -75,7 +74,7 @@ body {
   margin-right: auto;
   /* align-items: center;
   justify-content: center; */
-  width: 25%;
+  width: 35%;
   height: 100%;
   color: #ECEEF1;
 }
@@ -85,7 +84,7 @@ body {
   position: absolute;
   /* flex-direction: row; */
   width: 80%;
-  top: 50px;
+  top: 70px;
   left: 10px;
 }
 
@@ -179,18 +178,34 @@ body {
   100% {left: 84%}
 }
   
-fieldset{
+/* fieldset{
   box-sizing: border-box;
   border: 1px solid black;
   background-color: white;
   width: 400px;
-  height: 580px;
+  height: 80%px;
   position: absolute;
   top: 100px;
   left: 0;
   padding: 5px;
   margin: 0;
   overflow: hidden;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+} */
+
+.main_form {
+  box-sizing: border-box;
+  border: 1px solid rgb(199, 199, 199);
+  background-color: white;
+  /* background-color: teal; */
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
@@ -223,9 +238,20 @@ fieldset{
   font-size: 13px;
 }
 .userInputs {
-  padding: 20px 20px 0 20px;
-  display:flex;
+  /* padding: 10px 0 0 0; */
+  padding: 20px 20px 20px 20px;
+  display: flex;
   flex-direction: column;
+  /* background-color: coral; */
+}
+
+.buttonBox {
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.pageBottom {
+  align-items: center;
 }
 
 /* .tooltip .tooltipText::after {
@@ -297,7 +323,7 @@ fieldset{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 100px;
+  width: 220px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -306,7 +332,9 @@ fieldset{
   position: absolute;
   z-index: 1;
   top: -5px;
-  left: 110%;
+  left: 105%;
+  font-family: sans-serif;
+  font-size: small;
   /* overflow: visible; */
   
 }
@@ -353,36 +381,45 @@ fieldset{
 }
 
 .emailBox {
+  padding: 0 10px 0 10px;
   margin-bottom: 20px;
 }
 
 .phoneBox{
+  padding: 0 10px 0 10px;
   margin-bottom: 20px;
 }
 
 .passwordBox {
+  padding: 0 10px 0 10px;
   margin-bottom: 25px;
 }
 
 .bottomFF{
   background-color: #ECEEF1;
+  /* background-color: chartreuse; */
   font-size: 10px;
-  display: flex;
-  position: absolute;
+  /* display: flex;
+  position: absolute; */
   width: 100%;
-  top: 680px;
-  left: 0px;
-  
+  height: 50px
+  /* top: 680px; */
+  /* left: 0px; */
+  /* border-color: blue;
+  /* padding: 16px; */
+  /* text-align: center;   */
 }
 
-.bottomFFformat{  
+.bottomFFformat{ 
   text-align: center;
+  padding: 20px 10px 10px 10px;
+  text-decoration: none;
 }
 
 .belowForm {
   width: 100%;
   position: absolute;
-  top: 800px;
+  top: 850px;
   left: 0;
   display: block;
   /* margin-bottom: 5px; */
