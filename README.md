@@ -1,6 +1,6 @@
 Web project on Sign up form
 
-![screenshot](https://github.com/praz99/signup_form/blob/feature_1/img/Screenshot%20of%20Website.png)
+![screenshot](https://github.com/praz99/signup_form/blob/master/img/Screenshot%20of%20Website.png)
 
 Description of the project:
 =================
