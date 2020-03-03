@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d6392431b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="topRightBar">
+        <div class="haveId">
+            <p class="haveAccount">Already have an Intuit account?</p>
+            <a class="forgetId" href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="signIn">
+            <button class="btnSignIn"><i class="fas fa-lock"></i>Sign In</button>
+        </div>
+
+    </header>
+    <form class="mainBody">
+        <div class="intuitLogo">
+            <img class="mainLogo" src="img/Logointuit1.png" alt="mainLogo">
+        </div>
+        <div class="logoNextline">
+            <img class="mint" src="img/mint.png" alt="mint">
+            <img class="mintText" src="img/mintText.png" alt="mintText">
+            <img class="quickBooks" src="img/quickbooks.png" alt="quickBooks">
+            <img class="quickBooksText" src="img/quickbooksText.png" alt="quickBooksText">
+            <img class="turbotax" src="img/turbotax.png" alt="turbotax">
+            <img class="turbotaxText" src="img/turbotaxText.png" alt="turbotaxText">
+        </div>
+        <fieldset class="main_form">
+            <div class="createAcc">
+                <p class="firstLine">
+                    Create an Intuit account
+                </p>
+                <p class="secondLine">
+                    One account for everything Intuit, including Mint.
+                </p>
+                <a class="learnMore" href="#" target="_blank">Learn more</a>
+            </div>
+            <div class="userInputs">
+                <div class="emailBox">
+                    <p>Email address</p>
+                    <div class="tooltip">                        
+                        <input type="text" name="username">
+                        <span class="tooltiptext">You'll use this as your user ID</span>
+                    </div>
+                </div>
+                <div class="phoneBox">
+                    <p>Phone (recommended) </p>
+                    <div class="tooltip">
+                        <input type="tel" name="phone">
+                        <span class="tooltiptext">We strongly recommend adding a phone number. This will help verify
+                            your account and keep it safe.
+                        </span>
+                    </div>
+                    <p
+                        style="font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: xx-small;">
+                        Standard call, messaging or data rates may apply.
+                    </p>
+                </div>
+
+                <div class="passwordBox">
+                    <p>Password</p>
+                    <div class="tooltip">
+                        <input type="password" name="password">
+                        <span class="tooltiptext">Create a password you've never used before. This will help keep your
+                            account safe.
+                        </span>
+                    </div>
+                </div>
+                <div class="buttonBox">
+                    <button class="btncreateAcc"><i class="fas fa-lock"></i>Create Account</button>
+                </div>
+                <div>
+                    <p class="formFooter">
+                        <em> By clicking Create account, you agree to our<br>
+                            <a class="ffhyperlink" href="#">Terms</a> and have read and acknowledge our <a
+                                class="ffhyperlink" href="#">Privacy<br> Statement.</a></em>
+                    </p>
+                </div>
+            </div>
+            <div class="bottomFF">
+                <p class="bottomFFformat">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a
+                        href="#">Terms
+                        of Use.</a>
+                </p>
+            </div>
+        </fieldset>
+    </form>
+    <footer class="belowForm">
+        <table align="center" class="pageBottom" cellspacing="20px">
+            <tr>
+                <td><a class="ffhyperlinkBottom" href="#">Legal</a></td>
+                <td><a class="ffhyperlinkBottom" href="#">Privacy</a></td>
+                <td><a class="ffhyperlinkBottom" href="#">Security</a></td>
+            </tr>
+        </table>
+        <p class="termsCond1">© 2020 Intuit, Inc. All rights reserved. Intuit,
+            QuickBooks, QB,
+            TurboTax,
+            ProConnect and Mint are
+            registered trademarks of Intuit Inc.</p>
+        <p class="termsCond2">Terms and conditions, features, support, pricing, and service options subject to
+            change
+            without notice.</p>
+
+    </footer>
+    <button class="privacyButton">Privacy Settings</button>
+</body>
+
+</html>
